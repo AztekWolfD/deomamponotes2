@@ -6,10 +6,10 @@
     <title>DenzXGrench</title>
 </head>
 <body>
-    <p id="temp"</p>
-    <p id="tempconvert"</p>
+    <p id="temp"></p>
+    <p id="tempconvert"></p>
     <script>
-        var temp=parseInt(prompt("Enter temperature in degrees celsius: "));
+        var temp=parseFloat(prompt("Enter temperature in degrees celsius: "));
         document.getElementById("temp").innerHTML=temp + " degrees celsius.";
         var temp2=(9/5*temp)+32;
         document.getElementById("tempconvert"). innerHTML=temp2 + " degrees kelvin.";
